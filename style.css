@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+    background: linear-gradient(#000428, #004e92);
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theater {
+    background: black;
+    border: 10px solid #ffd700;
+    box-shadow: 0 0 30px #ffd700;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+video {
+    width: 80%;
+    max-width: 700px;
+    border: 5px solid white;
+    box-shadow: 0 0 20px white;
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+button {
+    background-color: #f12368;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f12368;
+}

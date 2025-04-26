@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Movie Theater </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="Theater">
+        <h1>🎭 Welcome to my Movie Theater! 📽️</h1>
+        <h5> Prepared by: <strong>Zahra Mehmandoust</strong></h5>
+        <h3>[ Death Of A Unicorn 🦄 ]</h3>
+        <marquee behavior="alternate" scrollamount="10" direction="left">
+            <span style="font-size: 30px; color: white;"> ● ● ● ● ● ● ● ● ● ● </span>
+        </marquee>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser doesn't support.
+        </video>
+        <marquee behavior="alternate" scrollamount="10" direction="right">
+            <span style="font-size: 30px; color: white;"> ● ● ● ● ● ● ● ● ● ● </span>
+        </marquee>
+        <div class="buttons">
+            <button onclick="document.querySelector('video').play()"><strong> Play Again ▶️ </strong></button>
+            <button onclick="alert('Thanks for rating 😊')"><strong> Rate Movie ✨</strong></button>
+        </div>
+    </section>
+</body>
+
+</html>
